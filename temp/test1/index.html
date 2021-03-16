@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Circular Text Effect | Demo 3 | Codrops</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</head>
+
+<body class="demo-3 loading">
+	<main>
+		<svg class="circles" width="100%" height="100%" viewBox="0 0 1400 1400">
+
+
+
+			<defs>
+				<pattern id="pattern-stripe" 
+				width="4" height="4" 
+				patternUnits="userSpaceOnUse"
+				patternTransform="rotate(45)">
+				<rect width="3" height="5" transform="translate(0,0)" fill="white"></rect>
+			  </pattern>
+			  <mask id="mask-stripe">
+				<rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-stripe)" />
+			  </mask>      
+
+
+				<path id="circle-1" d="M250,700.5A450.5,450.5 0 1 11151,700.5A450.5,450.5 0 1 1250,700.5"></path>
+				<path id="circle-2" d="M1087.91,700c0,214.23-173.67,387.91-387.91,387.91S312.09,914.23,312.09,700S485.77,312.09,700,312.09S1087.91,485.77,1087.91,700z"></path>
+				<path id="circle-3" d="M1001.75,700c0,166.65-135.1,301.75-301.75,301.75S398.25,866.65,398.25,700S533.35,398.25,700,398.25S1001.75,533.35,1001.75,700z"></path>
+				<path id="circle-4" d="M943.73,700c0,134.61-109.12,243.73-243.73,243.73S456.27,834.61,456.27,700S565.39,456.27,700,456.27
+		S943.73,565.39,943.73,700z"></path>
+			</defs>
+			<text class="circles__text circles__text--1">
+				<textPath class="circles__text-path" xlink:href="#circle-1" aria-label="" textLength="2810">Il Presidente della Repubblica è il Capo dello Stato e rappresenta l'unità nazionale.</textPath>
+			</text>
+			<text class="circles__text circles__text--2">
+				<textPath class="circles__text-path" xlink:href="#circle-2" aria-label="" textLength="2425">Il Presidente della Repubblica, prima di assumere le sue funzioni, presta giuramento di fedeltà alla Repubblica e di osservanza della Costituzione dinanzi al Parlamento in seduta comune.</textPath>
+			</text>
+			<text class="circles__text circles__text--3">
+				<textPath class="circles__text-path" xlink:href="#circle-3" aria-label="" textLength="1880">Il Presidente della Repubblica è eletto per sette anni.</textPath>
+			</text>
+			<text class="circles__text circles__text--4">
+				<textPath class="circles__text-path" xlink:href="#circle-4" aria-label="" textLength="1525">Può essere eletto Presidente della Repubblica ogni cittadino che abbia compiuto cinquanta anni d'età e goda dei diritti civili e politici.</textPath>
+			</text>
+		</svg>
+		<div class="frame">
+			<nav class="frame__links">
+
+			</nav>
+			<nav class="frame__demos">
+
+			</nav>
+		</div>
+		<div class="content">
+			<p>We are a creative agency that focuses on human-centric design and ergonomic workplace innovations.</p>
+		</div>
+		<button class="enter">
+			<div class="enter__bg"></div>
+
+		</button>
+	</main>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
