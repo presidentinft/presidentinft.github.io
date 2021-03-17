@@ -17,23 +17,23 @@
     }
 
 	.line:nth-of-type(1) {
-		left:10vw;
+		left:16.666vw;
 	}
 	
 	.line:nth-of-type(2) {
-		left:20vw;
+		left:33.33333vw;
 	}
 	
 	.line:nth-of-type(3) {
-		left:30vw;
+		left:50vw;
 	}
 	
 	.line:nth-of-type(4) {
-		left:40vw;
+		left:66.666vw;
 	}
 	
 	.line:nth-of-type(5) {
-		left:50vw;
+		left:83.333vw;
 	}
 	
 	.line:nth-of-type(6) {
