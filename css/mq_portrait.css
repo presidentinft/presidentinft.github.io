@@ -8,6 +8,13 @@
         height: 25vh;
     }
 
+    .list_item_text::before {
+        display:none;
+    }
+
+    #link {
+        -webkit-text-stroke: 1px #fff;
+    }
 
 	.line:nth-of-type(1) {
 		left:10vw;
