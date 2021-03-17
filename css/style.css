@@ -26,6 +26,8 @@ a, a:hover, a:focus {
 main {
 	position:fixed;
 	width:100vw;
+	max-width:100vw;
+	overflow:hidden;
 	top:0;
 	left:0;
 	z-index:10;
@@ -38,6 +40,11 @@ main {
 	-ms-user-select: none;
 	user-select: none;
 	counter-reset: menucounter;
+}
+
+section {
+	max-width:100vw;
+	overflow:hidden;
 }
 
 
@@ -259,6 +266,8 @@ html.has-scroll-dragging {
 	--offset: 20vw;
 	--move-initial: calc(-25% + var(--offset));
 	--move-final: calc(-50% + var(--offset));
+	max-width:100vw;
+	overflow:hidden;
 }
 
 #link_container {
