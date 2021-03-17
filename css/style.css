@@ -147,8 +147,8 @@ section {
 }
 
 .divider {
-    width: 1px;
-    height: 50vh;
+    width: 2px;
+    height: 40vh;
     background: #fff;
     margin: 10vh auto;
 }

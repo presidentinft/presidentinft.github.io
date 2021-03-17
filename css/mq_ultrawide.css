@@ -4,6 +4,12 @@
 		font-size: .8vw;
 	}
 
+	.divider {
+		height: 50vh;
+	}
+	
+	
+
 	.line:nth-of-type(1) {
 		left:10vw;
 	}
