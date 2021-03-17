@@ -5,7 +5,7 @@
     }
 
     .divider {
-        height: 25vh;
+        height: 20vh;
     }
 
     .list_item_text::before {
@@ -16,6 +16,10 @@
         -webkit-text-stroke: 1px #fff;
     }
 
+    #shadow_links_container {
+        -webkit-text-stroke: 1px #fff;
+    }
+    
 	.line:nth-of-type(1) {
 		left:16.666vw;
 	}
