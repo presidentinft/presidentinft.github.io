@@ -8,7 +8,13 @@
 		height: 50vh;
 	}
 	
-	
+	.list_item_text::before {
+		left: 17.5em;
+		top: 6em;
+		font-size: .1em;
+		letter-spacing: 0;
+	}
+		
 
 	.line:nth-of-type(1) {
 		left:10vw;

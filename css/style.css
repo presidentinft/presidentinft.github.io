@@ -42,7 +42,6 @@ main {
 
 section {
 	max-width:100vw;
-	overflow:hidden;
 }
 
 
@@ -79,16 +78,17 @@ section {
 	white-space: nowrap;
 }
 
+
 .list_item_text::before {
     counter-increment: menucounter;
     content: counters(menucounter, ".", decimal-leading-zero);
     position: absolute;
-    left: 17.5em;
-    top: 6em;
+    left: 12em;
+    top: 4.5em;
     transition: transform 0.3s, opacity 0.3s;
-    font-size: .1em;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	letter-spacing: 0;
+    font-size: .135em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    letter-spacing: .03em;
 }
 
 
@@ -148,7 +148,7 @@ section {
 
 .divider {
     width: 2px;
-    height: 40vh;
+    height: 35vh;
     background: #fff;
     margin: 10vh auto;
 }
@@ -186,7 +186,7 @@ section {
 #credits span::before {
     content: "";
     width: 12em;
-    height: 1px;
+    height: 2px;
     position: absolute;
     background: #fff;
     left: -85%;
