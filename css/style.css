@@ -162,37 +162,15 @@ section {
 
 /* credits */
 #credits {
-    letter-spacing: .4em;
-    height: 10em;
-    right: 4em;
-    position: fixed;
-    z-index: 6;
-    bottom: 4em;
-    transform: rotate( 
-90deg
- );
-    text-align: right;
-    width: 10em;
-    font-family: 'font1';
+    margin: auto;
+    padding-top: 25vh;
+    letter-spacing: .1em;
     font-size: .7em;
-    overflow: visible;
 }
 
 #credits span {
-    display: block;
-    position: relative;
+    font-size: .86em;
 }
-
-#credits span::before {
-    content: "";
-    width: 12em;
-    height: 2px;
-    position: absolute;
-    background: #fff;
-    left: -85%;
-    top: 50%;
-}
-
 
 
 /* scroll */
