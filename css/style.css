@@ -69,6 +69,12 @@ section {
     padding-left: .6em;
 }
 
+#header_tagline {
+    width: 13em;
+    margin: auto;
+    padding: 10vh 0;
+    font-style: italic;
+}
 
 
 #list {
