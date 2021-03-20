@@ -45,8 +45,6 @@ section {
     max-width: 90vw;
 }
 
-
-
 #header_top {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #fff;
@@ -70,10 +68,12 @@ section {
 }
 
 #header_tagline {
-    width: 13em;
+    width: 20em;
     margin: auto;
     padding: 10vh 0;
     font-style: italic;
+    font-family: 'font1';
+    line-height: 1.5em;
 }
 
 
