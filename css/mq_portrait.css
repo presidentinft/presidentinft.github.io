@@ -1,7 +1,14 @@
 @media (max-aspect-ratio: 1/1) {
 
+	.divider {
+		width: 1px;
+	}
+
+
 	#header_top {
 		-webkit-text-stroke: 1px #fff;
+		font-size: 18.25em;
+		letter-spacing: -.005em;
 	}
 
 	#header_top span {
@@ -11,6 +18,16 @@
     .list_item_text {
         padding: 0.8em 2em;
     }
+
+
+
+
+
+
+	#header_tagline {
+		padding: 8vh 0 2vh;
+		font-size: 3em;
+	}
 
     .divider {
         height: 20vh;
@@ -74,5 +91,9 @@
         display:none;
 	}
     
+
+	#credits {
+		font-size: 2em;
+	}
 
 }
