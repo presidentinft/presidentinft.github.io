@@ -41,8 +41,34 @@ main {
 }
 
 section {
-	max-width:100vw;
+    margin: auto;
+    max-width: 90vw;
 }
+
+
+
+#header_top {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+	font-family: 'font2';
+	font-size: 15em;	
+}
+
+#header_top span {
+	display:block;
+	line-height: .9em;
+}
+
+#header_top_1 {
+    padding-right: 1.2em;
+}
+
+
+#header_top_2 {
+    padding-left: .6em;
+}
+
 
 
 #list {
@@ -154,13 +180,7 @@ section {
 }
 
 
-
-
-
-
-
-
-/* credits */
+/* Credits */
 #credits {
     margin: auto;
     padding-top: 25vh;
