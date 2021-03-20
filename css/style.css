@@ -50,12 +50,12 @@ section {
     -webkit-text-stroke: 2px #fff;
     color: transparent;
 	font-family: 'font2';
-	font-size: 15em;	
+	font-size: 17em;	
 }
 
 #header_top span {
-	display:block;
-	line-height: .9em;
+    display: block;
+    line-height: .95em;
 }
 
 #header_top_1 {
@@ -70,10 +70,11 @@ section {
 #header_tagline {
     width: 20em;
     margin: auto;
-    padding: 10vh 0;
+    padding: 14vh 0 8vh;
     font-style: italic;
     font-family: 'font1';
-    line-height: 1.5em;
+    line-height: 1.65em;
+    font-size: 1.5em;
 }
 
 

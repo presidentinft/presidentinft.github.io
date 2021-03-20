@@ -1,5 +1,13 @@
 @media (max-aspect-ratio: 1/1) {
 
+	#header_top {
+		-webkit-text-stroke: 1px #fff;
+	}
+
+	#header_top span {
+		line-height: 1.1em;
+	}
+
     .list_item_text {
         padding: 0.8em 2em;
     }
