@@ -118,6 +118,34 @@ section {
 	background-image:url('../img/presidenti/P005.jpg');
 }
 
+.list_item_container:nth-of-type(6) .list_item_img {
+	background-image:url('../img/presidenti/P006.jpg');
+}
+
+.list_item_container:nth-of-type(7) .list_item_img {
+	background-image:url('../img/presidenti/P007.jpg');
+}
+
+.list_item_container:nth-of-type(8) .list_item_img {
+	background-image:url('../img/presidenti/P008.jpg');
+}
+
+.list_item_container:nth-of-type(9) .list_item_img {
+	background-image:url('../img/presidenti/P009.jpg');
+}
+
+.list_item_container:nth-of-type(10) .list_item_img {
+	background-image:url('../img/presidenti/P010.jpg');
+}
+
+.list_item_container:nth-of-type(11) .list_item_img {
+	background-image:url('../img/presidenti/P011.jpg');
+}
+
+.list_item_container:nth-of-type(12) .list_item_img {
+	background-image:url('../img/presidenti/P012.jpg');
+}
+
 
 .list_item {
     flex: none;
