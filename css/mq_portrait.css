@@ -7,7 +7,8 @@
    
 
 	.divider {
-		width: 1px;
+		height: 10vh;
+		background:transparent;
 	}
 
 
@@ -34,9 +35,7 @@
 		font-size: 3em;
 	}
 
-    .divider {
-        height: 20vh;
-    }
+
 
     .list_item_text::before {
         display:none;
