@@ -1,5 +1,7 @@
 @media (min-aspect-ratio: 19/9) {
 
+
+
 	body {
 		font-size: .8vw;
 	}
@@ -8,6 +10,12 @@
 		height: 40vh;
 	}
 	
+
+	#header_top {
+		font-size: 18em;
+	}
+
+
 	.list_item_text::before {
 		left: 17.5em;
 		top: 6em;
