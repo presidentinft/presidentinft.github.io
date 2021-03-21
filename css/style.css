@@ -4,7 +4,6 @@ html, body {
  overflow-x:hidden;
 }
 
-
 body {
 	font-size: 1vw;
 	margin: 0;
@@ -13,13 +12,11 @@ body {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-
 a, a:hover, a:focus {
 	text-decoration: none;
 	outline: none;
 
 }
-
 
 main {
 	position:fixed;
