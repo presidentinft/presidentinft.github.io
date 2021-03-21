@@ -85,12 +85,13 @@ section {
 
 .list_item_img {
 	margin:auto;
-	width:60vw;
-	height:92vw;
+	width:75vw;
+	height:115vw;
 	display:none;
 	background-size:cover;
 	background-position: center center;
-	margin-top: 8em;
+	margin-top: 9em;
+	border-radius:.5em;
 }
 
 .mobile .list_item_img {
