@@ -12,9 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="css/mq_portrait.css">
 		<link rel="stylesheet" type="text/css" href="css/mq_ultrawide.css">	
 
-		<script>
-			(function () { if (  'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0 ) {	document.querySelectorAll(".list_item_container").add("touch");		}; })();
-		</script>
 
 	</head>
 
@@ -82,6 +79,13 @@
 			<section id="lines">
 				<div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div>
 			</section>
+
+			<script>
+				(function () { if ( 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0 ) {
+					document.querySelectorAll(".list_item_container").forEach(function (el) { el.classList.add("touch"); });
+				};})();
+			</script>
+				
 
 		<script src="js/scripts.js"></script>
 

@@ -126,6 +126,7 @@ section {
 .touch {
 	touch-action: unset;
 	pointer-events:none;
+	color: #ff0000 !important;
 }
 
 
