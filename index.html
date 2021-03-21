@@ -34,18 +34,18 @@
 
 				<!-- List -->
 				<section id="list">
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P001.jpg"><span class="list_item_text"><span class="nome">Enrico </span><span class="cognome">De Nicola</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P002.jpg"><span class="list_item_text"><span class="nome">Luigi </span><span class="cognome">Einaudi</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P003.jpg"><span class="list_item_text"><span class="nome">Giovanni </span><span class="cognome">Gronchi</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P004.jpg"><span class="list_item_text"><span class="nome">Antonio </span><span class="cognome">Segni</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P005.jpg"><span class="list_item_text"><span class="nome">Giuseppe </span><span class="cognome">Saragat</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P006.jpg"><span class="list_item_text"><span class="nome">Giovanni </span><span class="cognome">Leone</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P007.jpg"><span class="list_item_text"><span class="nome">Sandro </span><span class="cognome">Pertini</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P008.jpg"><span class="list_item_text"><span class="nome">Francesco </span><span class="cognome">Cossiga</span></span></a></div>	
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P009.jpg"><span class="list_item_text"><span class="nome">Oscar Luigi </span><span class="cognome">Scalfaro</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P010.jpg"><span class="list_item_text"><span class="nome">Carlo Azeglio </span><span class="cognome">Ciampi</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P011.jpg"><span class="list_item_text"><span class="nome">Giorgio </span><span class="cognome">Napolitano</span></span></a></div>
-					<div class="list_item_container"><a class="list_item" data-img="img/presidenti/P012.jpg"><span class="list_item_text"><span class="nome">Sergio </span><span class="cognome">Mattarella</span></span></a></div>	
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P001.jpg"></div><span class="list_item_text"><span class="nome">Enrico </span><span class="cognome">De Nicola</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P002.jpg"><span class="list_item_text"><span class="nome">Luigi </span><span class="cognome">Einaudi</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P003.jpg"><span class="list_item_text"><span class="nome">Giovanni </span><span class="cognome">Gronchi</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P004.jpg"><span class="list_item_text"><span class="nome">Antonio </span><span class="cognome">Segni</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P005.jpg"><span class="list_item_text"><span class="nome">Giuseppe </span><span class="cognome">Saragat</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P006.jpg"><span class="list_item_text"><span class="nome">Giovanni </span><span class="cognome">Leone</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P007.jpg"><span class="list_item_text"><span class="nome">Sandro </span><span class="cognome">Pertini</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P008.jpg"><span class="list_item_text"><span class="nome">Francesco </span><span class="cognome">Cossiga</span></span></a></div>	
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P009.jpg"><span class="list_item_text"><span class="nome">Oscar Luigi </span><span class="cognome">Scalfaro</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P010.jpg"><span class="list_item_text"><span class="nome">Carlo Azeglio </span><span class="cognome">Ciampi</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P011.jpg"><span class="list_item_text"><span class="nome">Giorgio </span><span class="cognome">Napolitano</span></span></a></div>
+					<div class="list_item_container"><div class="list_item_img"></div><a class="list_item" data-img="img/presidenti/P012.jpg"><span class="list_item_text"><span class="nome">Sergio </span><span class="cognome">Mattarella</span></span></a></div>	
 				</section>
 
 				<!-- Divider #2 -->
@@ -82,6 +82,7 @@
 
 			<script>
 				(function () { if ( 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0 ) {
+					document.documentElement.classList.add("mobile");
 					document.querySelectorAll(".list_item_container").forEach(function (el) { el.classList.add("touch"); });
 				};})();
 			</script>

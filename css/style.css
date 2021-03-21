@@ -60,8 +60,6 @@ section {
 #header_top_1 {
     padding-right: 1.2em;
 }
-
-
 #header_top_2 {
     padding-left: .6em;
 }
@@ -85,6 +83,42 @@ section {
 	text-align:center;
 }
 
+.list_item_img {
+	margin:auto;
+	width:46vw;
+	height:70vw;
+	display:none;
+	background-size:cover;
+	background-position: center center;
+	margin-top: 8em;
+}
+
+.mobile .list_item_img {
+	display:block;
+}
+
+.list_item_container:nth-of-type(1) .list_item_img {
+	background-image:url('../img/presidenti/P001.jpg');
+	padding-top: 0;
+}
+
+.list_item_container:nth-of-type(2) .list_item_img {
+	background-image:url('../img/presidenti/P002.jpg');
+}
+
+.list_item_container:nth-of-type(3) .list_item_img {
+	background-image:url('../img/presidenti/P003.jpg');
+}
+
+.list_item_container:nth-of-type(4) .list_item_img {
+	background-image:url('../img/presidenti/P004.jpg');
+}
+
+.list_item_container:nth-of-type(5) .list_item_img {
+	background-image:url('../img/presidenti/P005.jpg');
+}
+
+
 .list_item {
     flex: none;
     display: inline-flex;
@@ -92,6 +126,9 @@ section {
     position: relative;
 	letter-spacing: -.1em;
 }
+
+
+
 
 .cognome {
 	font-family: 'font2';
@@ -126,7 +163,6 @@ section {
 .touch {
 	touch-action: unset;
 	pointer-events:none;
-	color: #ff0000 !important;
 }
 
 
