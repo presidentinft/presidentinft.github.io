@@ -43,11 +43,12 @@ section {
 }
 
 #header_top {
+    margin-top: 15vh;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #fff;
     color: transparent;
-	font-family: 'font2';
-	font-size: 17em;	
+    font-family: 'font2';
+    font-size: 18em;
 }
 
 #header_top span {
