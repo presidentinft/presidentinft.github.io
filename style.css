@@ -144,52 +144,52 @@ section {
 }
 
 .list_item_container:nth-of-type(1) .list_item_img {
-	background-image:url('../img/presidenti/P001.jpg');
+	background-image:url('img/presidenti/P001.jpg');
 	padding-top: 0;
 }
 
 .list_item_container:nth-of-type(2) .list_item_img {
-	background-image:url('../img/presidenti/P002.jpg');
+	background-image:url('img/presidenti/P002.jpg');
 }
 
 .list_item_container:nth-of-type(3) .list_item_img {
-	background-image:url('../img/presidenti/P003.jpg');
+	background-image:url('img/presidenti/P003.jpg');
 }
 
 .list_item_container:nth-of-type(4) .list_item_img {
-	background-image:url('../img/presidenti/P004.jpg');
+	background-image:url('img/presidenti/P004.jpg');
 }
 
 .list_item_container:nth-of-type(5) .list_item_img {
-	background-image:url('../img/presidenti/P005.jpg');
+	background-image:url('img/presidenti/P005.jpg');
 }
 
 .list_item_container:nth-of-type(6) .list_item_img {
-	background-image:url('../img/presidenti/P006.jpg');
+	background-image:url('img/presidenti/P006.jpg');
 }
 
 .list_item_container:nth-of-type(7) .list_item_img {
-	background-image:url('../img/presidenti/P007.jpg');
+	background-image:url('img/presidenti/P007.jpg');
 }
 
 .list_item_container:nth-of-type(8) .list_item_img {
-	background-image:url('../img/presidenti/P008.jpg');
+	background-image:url('img/presidenti/P008.jpg');
 }
 
 .list_item_container:nth-of-type(9) .list_item_img {
-	background-image:url('../img/presidenti/P009.jpg');
+	background-image:url('img/presidenti/P009.jpg');
 }
 
 .list_item_container:nth-of-type(10) .list_item_img {
-	background-image:url('../img/presidenti/P010.jpg');
+	background-image:url('img/presidenti/P010.jpg');
 }
 
 .list_item_container:nth-of-type(11) .list_item_img {
-	background-image:url('../img/presidenti/P011.jpg');
+	background-image:url('img/presidenti/P011.jpg');
 }
 
 .list_item_container:nth-of-type(12) .list_item_img {
-	background-image:url('../img/presidenti/P012.jpg');
+	background-image:url('img/presidenti/P012.jpg');
 }
 
 
