@@ -25,17 +25,10 @@
         padding: 0.8em 2em;
     }
 
-
-
-
-
-
 	#header_tagline {
 		padding: 8vh 0 2vh;
 		font-size: 3em;
 	}
-
-
 
     .list_item_text::before {
         display:none;
