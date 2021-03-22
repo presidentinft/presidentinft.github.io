@@ -5666,9 +5666,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   
   
 
-        _gsap.gsap.set(DOM.enterCtrl, {
-          pointerEvents: 'none'
-        });
+
   
         this.initEvents();
       }
@@ -5698,6 +5696,8 @@ parcelRequire = (function (modules, cache, entry, globalName) {
               amount: -0.15
             }
           });
+
+
         };
   
         this.enterMouseLeaveEv = function () {
@@ -5755,11 +5755,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
             amount: 0.4
           }
         }, 'start') // at start+1 allow the hover over the enter ctrl
-        .add(function () {
-          _gsap.gsap.set(DOM.enterCtrl, {
-            pointerEvents: 'auto'
-          });
-        }, 'start+=2');
+
       }
     }, {
       key: "enter",
@@ -5789,6 +5785,13 @@ parcelRequire = (function (modules, cache, entry, globalName) {
             amount: 0.3
           }
         });
+
+        _gsap.gsap.to(document.querySelector("#loader"), {
+            delay: 1.5,
+            duration: 2,
+            autoAlpha: 0
+        });
+
       }
     }]);
   
