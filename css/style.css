@@ -3,7 +3,7 @@ html, body {
  max-width:100vw;
  overscroll-behavior: none;
  -webkit-overflow-scrolling: touch;
- overflow:none;
+ overflow: hidden !important;
 }
 
 body {
@@ -38,7 +38,6 @@ a, a:hover, a:focus {
 
 
 main {
-	opacity:0;
 	position:fixed;
 	width:100vw;
 	max-width:100vw;
@@ -174,9 +173,6 @@ section {
     position: relative;
 	letter-spacing: -.1em;
 }
-
-
-
 
 .cognome {
 	font-family: 'font2';
