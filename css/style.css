@@ -19,6 +19,24 @@ a, a:hover, a:focus {
 	outline: none;
 }
 
+#curtain {
+	position:fixed;
+    z-index: 999;
+	width:100vw;
+	height:100vh;
+	top:0;
+	left:0;
+	background: #222;
+	pointer-events:none;
+	animation: loadingAnim .75s ease 1s 1 forwards;
+}
+
+@keyframes loadingAnim {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}		
+
+
 main {
 	opacity:0;
 	position:fixed;
@@ -238,7 +256,7 @@ section {
     width: 100vw;
     height: 100vh;
     pointer-events: none;
-    z-index: 40;
+    z-index: 1000;
 }
 
 .line {
