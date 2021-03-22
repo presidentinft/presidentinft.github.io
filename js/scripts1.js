@@ -5683,7 +5683,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
           _gsap.gsap.to(DOM.enterBackground, {
             duration: 1,
             ease: 'expo',
-            scale: 1.8,
+            scale: 1.4,
             opacity: 0,
   
           });
